@@ -1,0 +1,29 @@
+#map{
+	height: 500px;
+	border: 1px solid #000;
+	width:900px;
+	position:fixed;
+	top:70px;
+	left:25px;
+	z-index:10000;
+}
+
+#mapOuter{
+	display:none;
+}
+
+.selectLatLon
+{
+		cursor:pointer;
+		float:right;
+		margin-top:13px;
+}
+
+#map_canvas
+{
+	margin-left:auto;
+	margin-right:auto;
+	width:1020px;
+	height:600px;
+	box-shadow: 10px 10px 10px 2px #888888;
+}
